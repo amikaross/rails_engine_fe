@@ -25,15 +25,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6fb42a02-4412-4897-9dd1-0adcaced1a14
+      - 3f61b977-e30e-4d9a-9b92-ec654e34d343
       X-Runtime:
-      - '0.005964'
+      - '0.003070'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 15 Dec 2022 16:18:53 GMT
+  recorded_at: Thu, 15 Dec 2022 17:15:51 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -59,9 +59,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - '0859c64d-f8de-42a5-937d-92de786a109a'
+      - fa6a26de-e664-41c2-ba76-ffd3126f7d7b
       X-Runtime:
-      - '0.010610'
+      - '0.003058'
       Transfer-Encoding:
       - chunked
     body:
@@ -107,7 +107,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 15 Dec 2022 16:18:53 GMT
+  recorded_at: Thu, 15 Dec 2022 17:15:51 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -133,9 +133,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 904748aa-ca4c-4205-a7cb-e62324eab9b2
+      - c9262925-37f7-4961-be82-751976bd0158
       X-Runtime:
-      - '0.004432'
+      - '0.001750'
       Transfer-Encoding:
       - chunked
     body:
@@ -143,7 +143,7 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 15 Dec 2022 16:18:53 GMT
+  recorded_at: Thu, 15 Dec 2022 17:15:51 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -169,9 +169,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7ee52b93-0937-42df-8139-ca40a9251b01
+      - 31004637-2987-4b86-bf6f-90b44a951983
       X-Runtime:
-      - '0.004318'
+      - '0.001610'
       Transfer-Encoding:
       - chunked
     body:
@@ -179,7 +179,7 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 15 Dec 2022 16:18:53 GMT
+  recorded_at: Thu, 15 Dec 2022 17:15:51 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -205,9 +205,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 53a12b7d-7192-48d3-8ce8-289f2a34eae6
+      - 62d9d513-617f-4858-a1eb-09e95048b1f0
       X-Runtime:
-      - '0.003075'
+      - '0.002301'
       Transfer-Encoding:
       - chunked
     body:
@@ -215,5 +215,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 15 Dec 2022 16:18:53 GMT
+  recorded_at: Thu, 15 Dec 2022 17:15:51 GMT
 recorded_with: VCR 6.1.0
