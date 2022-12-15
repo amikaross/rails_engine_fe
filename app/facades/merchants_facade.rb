@@ -1,7 +1,7 @@
 class MerchantsFacade
-  def initialize(merchant_id=nil, query_params)
-    @merchant_id = merchant_id
-    @query_params = query_params
+  def initialize(params)
+    @merchant_id = params[:id]
+    @query_params = params[:q]
   end
 
   def merchants
