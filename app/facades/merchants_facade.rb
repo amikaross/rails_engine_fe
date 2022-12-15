@@ -1,6 +1,7 @@
 class MerchantsFacade
-  def initialize(merchant_id=nil)
+  def initialize(merchant_id=nil, query_params)
     @merchant_id = merchant_id
+    @query_params = query_params
   end
 
   def merchants
@@ -18,6 +19,11 @@ class MerchantsFacade
     service.merchant_items(@merchant_id)[:data].map do |data|
       Item.new(data)
     end
+  end
+
+  def search_merchants
+    data = service.search_merchants(@query_params)[:data]
+    Merchant.new(data)
   end
 
   def service 

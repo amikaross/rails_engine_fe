@@ -1,0 +1,6 @@
+<h1>Welcome to Rails Engine FE!</h1>
+
+<%= form_with url: merchants_path, method: :get, local: true do |form| %>
+  <%= form.text_field :q, placeholder: "Search by name.." %>
+  <%= form.submit 'Search' %>
+<% end %>

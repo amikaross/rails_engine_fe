@@ -1,9 +1,9 @@
 class MerchantsController < ApplicationController 
   def index 
-    @facade = MerchantsFacade.new
+    @facade = MerchantsFacade.new(params[:q])
   end
 
   def show 
-    @facade = MerchantsFacade.new(params[:id])
+    @facade = MerchantsFacade.new(params[:id], nil)
   end
 end
